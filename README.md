@@ -1,4 +1,4 @@
-Yii2-cart
+Yii2-hospital
 ==========
 
 It's module provide few widgets for hospital's site. Today there have only one widget with form who connect doctor and pacient.
