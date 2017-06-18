@@ -1,0 +1,1 @@
+<?=\pistol88\hospital\widgets\PacientForm::widget(['pjax' => $pjax, 'model' => $model]); ?>
