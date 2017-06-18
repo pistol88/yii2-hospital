@@ -74,7 +74,7 @@ class PacientController extends Controller
         
         if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->save()) {
             yii::$app->session->setFlash('pacientFormDone', yii::t('hospital', 'Thanks'));
-            return $this->goBack();
+            $model = new PacientForm;
         }
         
         return $this->render('pacient-form', [
