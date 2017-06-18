@@ -78,7 +78,6 @@ class PacientController extends Controller
         return $this->render('pacient-form', [
             'pjax' => yii::$app->request->isAjax ? true : false,
             'model' => $model,
-            'captcha' => $this->module->captcha,
         ]);
     }
 }
