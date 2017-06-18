@@ -25,7 +25,7 @@ And add this to modules section of config:
     ],
 ```
 
-And now you can use a widget at some view:
+Now you can use a widget at some view:
 
 ```
     <?=\pistol88\hospital\widgets\PacientForm::widget(['pjax' => true]); ?>
